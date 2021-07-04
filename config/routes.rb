@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   get "/articles", to: "articles#index"
 
   get "/contact", to: "contacts#index"
+
+  post "/create_request", to: "articles#create_request"
 end

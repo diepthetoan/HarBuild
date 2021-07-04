@@ -1,0 +1,37 @@
+.section-subheading {
+  color: #fff;
+}
+
+.contact_form {
+  .form-group {
+    margin-bottom: 1.5rem;
+
+    label {
+      color: #fff;
+    }
+
+    input {
+      padding: 1.25rem;
+    }
+
+    label.required:after{
+      content:" *";
+      color: red;
+    }
+  }
+
+  .form-group-textarea {
+    height: 100%;
+
+    textarea {
+      height: 100%;
+      min-height: 10rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .mb-md-0 {
+    margin-bottom: 0 !important;
+  }
+}
