@@ -7,6 +7,10 @@
           <a href="mailto:Harbuil@gmail.com">
               <span id="et-info-email">Harbuil@gmail.com</span>
           </a>
+          <%# <a class="et-info-language" href="">EN</a>
+          <a class="et-info-language" href="">VN</a> %>
+          <%= link_to 'EN', root_path(locale: :en), class: "et-info-language" %>
+          <%= link_to 'VN', root_path(locale: :vi), class: "et-info-language" %>
       </div> <!-- #et-info -->
       <div id="et-secondary-menu">
       </div> <!-- #et-secondary-menu -->
@@ -23,12 +27,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="">EN/VN</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services"><%= t('header.services') %></a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio"><%= t('header.portfolio') %></a></li>
+                <li class="nav-item"><a class="nav-link" href="#about"><%= t('header.about') %></a></li>
+                <li class="nav-item"><a class="nav-link" href="#team"><%= t('header.team') %></a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact"><%= t('header.contact') %></a></li>
             </ul>
         </div>
     </div>

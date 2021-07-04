@@ -5,10 +5,11 @@ class ArticlesController < ApplicationController
 
   def create_request
     @request = Request.new(permit_params)
+    locale = params['request']['locale_code']
     if @request.save
-      flash[:notice] = 'Sent Successfully!'
+      flash[:notice] = locale == 'vi' ? 'Gửi thông tin thành công!' :'Sent Successfully!'
     end
-    redirect_to '/#contact'
+    redirect_to "/#{locale}#contact"
   end
 
   private

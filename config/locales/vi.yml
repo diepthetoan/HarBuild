@@ -1,0 +1,31 @@
+vi:
+  hello: "Xin chào"
+  welcome: "Chào Mừng đến với Harbuild!"
+  nice_to_meet_you: "Rất vui được gặp bạn"
+  tell_me_more: "Xin hãy cho chúng tôi thông tin của bạn"
+  header:
+    services: "Dịch vụ"
+    portfolio: "Sản phẩm hoàn thành"
+    about: "Về chúng tôi"
+    team: "Đội ngũ"
+    contact: "Liên hệ"
+  main:
+    services: "Dịch vụ"
+    portfolio: "Sản phẩm hoàn thành"
+    about: "Về chúng tôi"
+    team: "Đội ngũ"
+    contact: "Liên lạc chúng tôi"
+    contact_us:
+      introduction: "Chúng tôi có thể giúp gì cho bạn? Hãy cho chúng tôi biết về vấn đề/dự án của bạn, chúng tôi sẽ liên lạc bạn sớm nhất có thể."
+      name: "Tên"
+      email: "Email"
+      phone: "Số điện thoại"
+      address: "Địa chỉ"
+      description: "Cho chúng tôi biết về vấn đề/dự án của bạn"
+      send_message: "Gửi thông tin"
+      placeholder:
+        name: "Tên của bạn"
+        email: "Email của bạn"
+        phone: "Số điện thoại của bạn"
+        address: "Địa chỉ của bạn"
+        description: "Thông tin về vấn đề/dự án của bạn"

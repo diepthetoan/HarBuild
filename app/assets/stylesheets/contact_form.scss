@@ -24,7 +24,7 @@
     height: 100%;
 
     textarea {
-      height: 100%;
+      height: calc(100% - 24px);
       min-height: 10rem;
     }
   }

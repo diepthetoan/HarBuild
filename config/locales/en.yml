@@ -31,3 +31,32 @@
 
 en:
   hello: "Hello world"
+  welcome: "Welcome To Harbuild!"
+  nice_to_meet_you: "It's Nice To Meet You"
+  tell_me_more: "Tell Me More"
+  header:
+    services: "Services"
+    portfolio: "Portfolio"
+    about: "About"
+    team: "Team"
+    contact: "Contact"
+  main:
+    services: "Services"
+    portfolio: "Portfolio"
+    about: "About"
+    team: "Our Amazing Team"
+    contact: "Contact Us"
+    contact_us:
+      introduction: "HOW CAN WE HELP YOU TODAY? Let us know a bit about your projects and we'll get back with you soon. We look forward to hearing from you."
+      name: "Name"
+      email: "Email"
+      phone: "Cell Phone"
+      address: "Address"
+      description: "Tell us about your project"
+      send_message: "Send Message"
+      placeholder:
+        name: "Your Name"
+        email: "Your Email"
+        phone: "Your Phone"
+        address: "Your Address"
+        description: "Your Message"
