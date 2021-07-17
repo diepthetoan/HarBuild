@@ -1,5 +1,5 @@
 class RequestMailer < ApplicationMailer
-  default from: 'harbuild@gmail.com'
+  default from: 'diepthetoan1997@gmail.com'
 
   def quote_email
     @request = params[:request]
