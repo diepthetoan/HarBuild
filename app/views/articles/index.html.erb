@@ -1,9 +1,14 @@
 <!-- Masthead-->
 <header class="masthead">
-    <div class="container">
-        <div class="masthead-subheading"><%= t('welcome') %></div>
-        <div class="masthead-heading text-uppercase"><%= t('nice_to_meet_you') %></div>
-        <a class="btn btn-primary btn-xl text-uppercase" href="#contact"><%= t('tell_me_more') %></a>
+    <div class="container row banner-with-form">
+        <div class="col-lg-7 col-sm-12 mb-4">
+            <%= render "articles/contact_form_fields" %>
+        </div>
+        <div class="col-lg-5 col-sm-12 mb-4">
+            <div class="masthead-subheading"><%= t('welcome') %></div>
+            <div class="masthead-heading text-uppercase"><%= t('nice_to_meet_you') %></div>
+            <%# <a class="btn btn-primary btn-xl text-uppercase" href="#contact"><%= t('tell_me_more') %>
+        </div>
     </div>
 </header>
 <!-- Services-->
@@ -17,7 +22,7 @@
 <!-- Clients-->
 <%= render "articles/clients" %>
 <!-- Contact Form-->
-<%= render "articles/contact_form" %>
+<%# <%= render "articles/contact_form" %>
 
 
 <!-- Bootstrap core JS-->
