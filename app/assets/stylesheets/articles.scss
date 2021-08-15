@@ -33,6 +33,10 @@
       border-color: #000;
     }
   }
+
+  .masthead-subheading, .masthead-heading {
+    color: #fff !important;
+  }
 }
 
 #services {
@@ -45,15 +49,82 @@
   }
 }
 
+#mainNav {
+  background-color: #fff;
+
+  .navbar-toggler {
+    color: #000;
+    border-color: #000;
+  }
+
+  #navbarResponsive li a {
+    color: #000 !important;
+  }
+}
+
+#et-info {
+
+  form {
+    display: initial;
+
+    #et-info-phone {
+      background: transparent;
+      border: none;
+      color: #fff;
+      font-size: 14px;
+    }
+  }
+
+  .et-info-email {
+
+    #et-info-email {
+      margin: 0 10px;
+      font-size: 14px;
+    }
+  }
+
+  svg {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 768px) {
   .service-card {
     width: 50%;
   }
 
   .masthead{
-  
+    padding-bottom: 0 !important;
+
     .banner-with-form {
       padding: 0;
     }
-  }  
+  }
+
+  .service-card-list {
+    li {
+      font-size: 13px;
+    }
+  }
+
+  #services {
+    .fa-4x {
+      font-size: 1.7em;
+    }
+  }
+
+  #mainNav {
+    top: 40px;
+  }
+
+  #et-info {
+    .et-info-email {
+      float: left;
+
+      #et-info-email {
+        margin: 0 10px;
+        font-size: 13px;
+      }
+    }
+  }
 }

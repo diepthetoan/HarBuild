@@ -24,29 +24,29 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <!-- Name input-->
-                    <label class="required"><%= t('main.contact_us.name') %></label>
+                    <%# <label class="required"><%= t('main.contact_us.name') %></label> %>
                     <%= f.text_field :name, class: "form-control", placeholder: t('main.contact_us.placeholder.name'), required: true %>
                 </div>
                 <div class="form-group">
                     <!-- Email address input-->
-                    <label class="required"><%= t('main.contact_us.email') %></label>
+                    <%# <label class="required"><%= t('main.contact_us.email') %></label> %>
                     <%= f.text_field :email, class: "form-control", type: "email", placeholder: t('main.contact_us.placeholder.email'), required: true %>
                 </div>
                 <div class="form-group ">
                     <!-- Phone number input-->
-                    <label class="required"><%= t('main.contact_us.phone') %></label>
+                    <%# <label class="required"><%= t('main.contact_us.phone') %></label> %>
                     <%= f.text_field :phone, class: "form-control", type: "tel", placeholder: t('main.contact_us.placeholder.phone'), required: true %>
                 </div>
                 <div class="form-group mb-md-0">
                     <!-- Phone number input-->
-                    <label><%= t('main.contact_us.address') %></label>
+                    <%# <label><%= t('main.contact_us.address') %></label> %>
                     <%= f.text_area :address, class: "form-control", placeholder: t('main.contact_us.placeholder.address') %>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="form-group form-group-textarea mb-md-0">
                     <!-- Message input-->
-                    <label class="required"><%= t('main.contact_us.description') %></label>
+                    <%# <label class="required"><%= t('main.contact_us.description') %></label> %>
                     <%= f.text_area :description, class: "form-control", placeholder: t('main.contact_us.placeholder.description'), required: true %>
                 </div>
             </div>

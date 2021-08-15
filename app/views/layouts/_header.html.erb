@@ -2,13 +2,16 @@
   <div class="container clearfix">
       <div id="et-info">
           <i class="fas fa-phone"></i>
-          <span href="tel:832-798-3798" id="et-info-phone">(832) 798 3798 </span>
-          <span> - </span>
-          <span href="tel:409-293-6411" id="et-info-phone">(409) 293 6411 </span>
-          <i class="fas fa-envelope"></i>
-          <a href="mailto:Harbuil@gmail.com">
-              <span id="et-info-email">Harbuild@gmail.com</span>
+          <form action="tel:832-798-3798"><button type='submit' id="et-info-phone">(832) 798 3798 </button></form>
+          <%# <span>-</span> %>
+          <form action="tel:409-293-6411"><button type='submit' id="et-info-phone">(409) 293 6411 </button></form>
+          <%# <div> %>
+          <%# <i class="fas fa-envelope"></i> %>
+          <a href="mailto:Harbuil@gmail.com" class="et-info-email">
+            <i class="fas fa-envelope"></i>
+            <span id="et-info-email">Harbuild@gmail.com</span>
           </a>
+          <%# </div> %>
           <%# <a class="et-info-language" href="">EN</a>
           <a class="et-info-language" href="">VN</a> %>
           <%= link_to 'EN', root_path(locale: :en), class: "et-info-language" %>

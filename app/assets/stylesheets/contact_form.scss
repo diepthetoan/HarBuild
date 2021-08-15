@@ -35,3 +35,19 @@
     margin-bottom: 0 !important;
   }
 }
+
+@media (max-width: 768px) {
+  .contact_form {
+    .form-group {
+      margin-bottom: 15px;
+      
+      label {
+        display: none;
+      }
+
+      input {
+        padding: 10px;
+      }
+    }
+  }
+}
