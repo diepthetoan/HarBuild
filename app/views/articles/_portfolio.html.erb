@@ -27,7 +27,7 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/portfolio/carpentry/1.jpeg" alt="..." />
+                        <img class="img-fluid" src="assets/portfolio/carpentry/39.jpeg" alt="..." />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Carpentry</div>
@@ -57,7 +57,7 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/portfolio/electrical/1.jpeg" alt="..." />
+                        <img class="img-fluid" src="assets/portfolio/electrical/27.jpeg" alt="..." />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Electrical</div>
@@ -72,7 +72,7 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/portfolio/flooring/1.jpeg" alt="..." />
+                        <img class="img-fluid" src="assets/portfolio/flooring/17.jpeg" alt="..." />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Flooring</div>
@@ -87,7 +87,7 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/portfolio/heating-cooling/1.jpeg" alt="..." />
+                        <img class="img-fluid" src="assets/portfolio/heating-cooling/6.jpeg" alt="..." />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Heating - Cooling</div>
@@ -103,7 +103,7 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/portfolio/kitchen/1.jpeg" alt="..." />
+                        <img class="img-fluid" src="assets/portfolio/kitchen/19.jpeg" alt="..." />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Kitchen</div>
@@ -151,7 +151,7 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/portfolio/patio/1.jpeg" alt="..." />
+                        <img class="img-fluid" src="assets/portfolio/patio/27.jpeg" alt="..." />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Patio Deck Room Addition</div>
@@ -167,10 +167,26 @@
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/portfolio/plumbing/1.jpeg" alt="..." />
+                        <img class="img-fluid" src="assets/portfolio/plumbing/28.jpeg" alt="..." />
                     </a>
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">Plumbing</div>
+                        <%# <div class="portfolio-caption-subheading text-muted">Illustration</div> %>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <!-- Portfolio item 11-->
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal12">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/portfolio/roofing/1.jpeg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Roofing</div>
                         <%# <div class="portfolio-caption-subheading text-muted">Illustration</div> %>
                     </div>
                 </div>
@@ -230,7 +246,7 @@
                             <!-- Project details-->
                             <h2 class="text-uppercase">Carpentry</h2>
                             <%# <img class="img-fluid d-block mx-auto" src="assets/portfolio/2.jpg" alt="..." /> %>
-                            <% (1..23).each do |x| %>
+                            <% Array(1..39).reverse.each do |x| %>
                                 <img loading="lazy" class="img-fluid d-block mx-auto" src="assets/portfolio/carpentry/<%= x %>.jpeg" alt="..." />
                             <% end %>
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -280,7 +296,7 @@
                         <div class="modal-body">
                             <!-- Project details-->
                             <h2 class="text-uppercase">Electrical</h2>
-                            <% (1..13).each do |x| %>
+                            <% Array(1..27).reverse.each do |x| %>
                                 <img class="img-fluid d-block mx-auto" src="assets/portfolio/electrical/<%= x %>.jpeg" alt="..." />
                             <% end %>
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -305,7 +321,7 @@
                         <div class="modal-body">
                             <!-- Project details-->
                             <h2 class="text-uppercase">Flooring</h2>
-                            <% (1..4).each do |x| %>
+                            <% Array(1..17).reverse.each do |x| %>
                                 <img loading="lazy" class="img-fluid d-block mx-auto" src="assets/portfolio/flooring/<%= x %>.jpeg" alt="..." />
                             <% end %>
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -330,7 +346,7 @@
                         <div class="modal-body">
                             <!-- Project details-->
                             <h2 class="text-uppercase">Heating - Cooling</h2>
-                            <% (1..4).each do |x| %>
+                            <% Array(1..6).reverse.each do |x| %>
                                 <img loading="lazy" class="img-fluid d-block mx-auto" src="assets/portfolio/heating-cooling/<%= x %>.jpeg" alt="..." />
                             <% end %>
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -356,7 +372,7 @@
                         <div class="modal-body">
                             <!-- Project details-->
                             <h2 class="text-uppercase">Kitchen</h2>
-                            <% (1..2).each do |x| %>
+                            <% Array(1..19).reverse.each do |x| %>
                                 <img loading="lazy" class="img-fluid d-block mx-auto" src="assets/portfolio/kitchen/<%= x %>.jpeg" alt="..." />
                             <% end %>
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -434,7 +450,7 @@
                         <div class="modal-body">
                             <!-- Project details-->
                             <h2 class="text-uppercase">Patio Deck Room Addition</h2>
-                            <% (1..6).each do |x| %>
+                            <% Array(1..27).reverse.each do |x| %>
                                 <img loading="lazy" class="img-fluid d-block mx-auto" src="assets/portfolio/patio/<%= x %>.jpeg" alt="..." />
                             <% end %>
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -460,8 +476,34 @@
                         <div class="modal-body">
                             <!-- Project details-->
                             <h2 class="text-uppercase">Plumbing</h2>
-                            <% (1..14).each do |x| %>
+                            <% Array(1..28).reverse.each do |x| %>
                                 <img loading="lazy" class="img-fluid d-block mx-auto" src="assets/portfolio/plumbing/<%= x %>.jpeg" alt="..." />
+                            <% end %>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-times me-1"></i>
+                                Close Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio item 12 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/close-icon.svg" alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Roofing</h2>
+                            <% Array(1..6).each do |x| %>
+                                <img loading="lazy" class="img-fluid d-block mx-auto" src="assets/portfolio/roofing/<%= x %>.jpeg" alt="..." />
                             <% end %>
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i class="fas fa-times me-1"></i>
